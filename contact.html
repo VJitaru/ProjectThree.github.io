@@ -1,0 +1,68 @@
+<!DOCUTYPE HTML>
+<html>
+<head>
+<meta charset=utf-8>
+<title>Victor Games</title>
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<script data-cfasync="false" type="text/javascript" src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script>
+</head>
+<body>
+	<header id="navbar-hide">
+		<!--Top Horizontal Menu / Main menu-->
+		<div class="horizontal-nav">
+			<ul>
+				<li><img class="nav-img" src="img/Bababa_small.png" alt="BABABA logo"></li>
+				<li><a href="index.html"><h4>Home</h4></a></li>
+				<li><a href="about_me.html"><h4>About me</h4></a></li>
+				<li><a href="services.html"><h4>Services</h4></a></li>
+				<li><a href="galery.html"><h4>Galery</h4></a></li>
+			</ul>
+		</div>
+	</header>
+	<!--Table with contact information-->	
+	<div class="contact">
+		<table align="center">
+			<tr>
+				<td >Name</td>
+				<td>Olga Ursul</td>
+			</tr>
+			<tr>
+				<td>Email</td>
+				<td>olga_ursul@yahoo.com</td>
+			</tr>
+			<tr>
+				<td>Mobile number</td>
+				<td>074111222333</td>
+			</tr>
+		</table>
+	</div><br><br>
+	<!--Form with customer`s full name and email and a button to send an email-->
+	<form class="contact-form" method="POST" action="https://script.google.com/macros/s/AKfycbzwOJmXwLgIERIFJFhTaXKbhLu5tVl6nlIIHahn/exec">
+		First name:<br>
+		<input type="text" name="First Name" required><br>
+		Last name:<br>
+		<input type="text" name="Last Name" required><br>
+		Email:<br>
+		<input type="text" name="Email" required><br><br>
+		Add your request below:<br>
+		<textarea name="message" rows="10" cols="50" required></textarea><br><br>
+		<input type="submit" value="Submit" target="_blank">
+	</form>
+	<footer>  
+		<!-- Social media bar on the bottom-->
+		<div class="social-media">
+			<a href="https://www.facebook.com/" target="_blank"><img src="social_media_icons/facebook.png" alt="facebook"></a>
+			<a href="https://www.instagram.com/" target="_blank"><img src="social_media_icons/instagram.png" alt="instagram"></a>
+			<a href="https://www.pinterest.co.uk/" target="_blank"><img src="social_media_icons/pinterest.png" alt="pinterest"></a>
+			<a href="https://twitter.com" target="_blank"><img src="social_media_icons/twitter.png" alt="twitter"></a>
+		</div>
+	</footer>
+	
+<script type="text/javascript" src="JS/Navbar.js"></script>
+</body>
+
+
+
+
+
+</html>
