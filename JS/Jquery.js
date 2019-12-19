@@ -1,3 +1,5 @@
+$(document).ready(() => {
+
 $('.postText').on('keyup', (event) => {    
     let post = $(event.currentTarget).val();
     let remaining = 140 - post.length;
@@ -9,3 +11,5 @@ $('.postText').on('keyup', (event) => {
     };
     $('.postText').focus();
   });
+
+})
