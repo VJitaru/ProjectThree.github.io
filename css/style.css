@@ -7,10 +7,12 @@ body {
   padding: 0;
   background: white;
 }
-.container {
+.container-main {
   max-width: 700px;
-  height: 100%;
   margin: 0 auto;
+  background-color: rgb(240, 255, 255);
+  margin-top: 60px;
+  margin-bottom: 100px;
 }
 /* Big image */
 .logo-image img {
@@ -158,6 +160,11 @@ body {
   vertical-align: middle;
 }
 /*Contact form*/
+.container-contact {
+  max-width: 700px;
+  height: 100%;
+  margin: 0 auto;
+}
 .post {
   background-color: rgb(240, 255, 255);
   border-radius: 4px;
@@ -214,7 +221,7 @@ form .post {
   word-wrap: break-word;
   height: 100px;
   resize: none;
-  }
+}
 .red {
   color: red;
 }
@@ -225,7 +232,7 @@ footer {
   display: block;
   right: 0;
   left: 0;
-  height: 50px;
+  height: 100px;
 }
 .social-media {
   text-align: center;
@@ -239,6 +246,19 @@ footer {
 }
 .social-media img:hover {
   opacity: 0.5;
+}
+.contact-us {
+  list-style-type: none;
+  margin: 0;
+  text-align: center;
+  font-size: 14px;
+}
+.contact-us li a {
+  color: #0a0a0a;
+}
+/*Tips page*/
+.tips-header {
+  text-align: center;
 }
 @media screen and (min-width: 480px) {
   .horizontal-nav li {
