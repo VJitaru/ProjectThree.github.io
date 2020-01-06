@@ -32,6 +32,7 @@ body {
 .row {
   display: flex;
   align-items: center;
+  margin-bottom: 150px;
 }
 .column-main {
   width: 25%;
@@ -51,17 +52,17 @@ body {
 }
 /* Navigation Bar */
 #navbar-hide {
-  position: fixed;
+  position: relative;
   height: 50px;
+  background-image: url("../img/background_colour_50px.png");
   z-index: 9999;
   width: 100%;
-  background-color: rgb(240, 255, 255);
+  background-color: rgb(250, 184, 184);
 }
 .nav-img {
   width: 50px;
   height: 50px;
-  vertical-align: middle;
-  margin-top: -5px;
+  vertical-align: middle;  
 }
 .horizontal-nav ul {
   list-style: none;
@@ -114,11 +115,18 @@ body {
   color: red;
   opacity: 0.7;
 }
-/* Galery image navigation bar in galery */
-.column {
+/* Gallery image navigation bar in gallery */
+.column-gallery {
+  margin-top: 60px;
   float: left;
   text-align: center;
   width: 33.33%;
+}
+.column-gallery img {
+  width: 250px;
+  height: 300px;
+  padding: 0;   
+   vertical-align: middle;
 }
 /* Clear floats after the columns */
 .row:after {
@@ -126,18 +134,10 @@ body {
   display: table;
   clear: both;
 }
-.column img {
-  padding: 0;
-  margin-top: 50px;
-  text-align: center;
-  background-color: white;
-  width: 200px;
-  height: 200px;
-  vertical-align: middle;
-}
 
-/* Galery image navigation bar in the rooms */
-.column-two {
+/* Gallery image navigation bar in the rooms */
+.column-two,
+.column-one {
   float: left;
   text-align: center;
   width: 50%;
@@ -150,14 +150,18 @@ body {
   clear: both;
   margin-left: 50px;
 }
-.column-two img {
-  padding: 0;
-  margin-top: 20px;
-  text-align: center;
-  background-color: white;
-  width: 400px;
+/*Gallery images Lightbox*/
+.gallery-wrap {
+  margin: 10px 50px;
+}
+.gallery-wrap img {
+  transition: 1s;
+  padding: 15px;
+  width: 300px;
   height: 400px;
-  vertical-align: middle;
+}
+.gallery-wrap img:hover {
+  transform: scale(1.1);
 }
 /*Contact form*/
 .container-contact {
@@ -228,18 +232,17 @@ form .post {
 footer {
   position: fixed;
   bottom: 0;
-  background-color: rgb(240, 255, 255);
+  background-image: url("../img/background_colour_60px.png");  
   display: block;
   right: 0;
   left: 0;
-  height: 100px;
+  height: 90px;
 }
 .social-media {
   text-align: center;
   margin-top: -50px;
 }
 .social-media img {
-  margin-top: 50px;
   height: 50px;
   width: 50px;
   vertical-align: middle;
@@ -248,10 +251,14 @@ footer {
   opacity: 0.5;
 }
 .contact-us {
+  font-family: "Times New Roman";
+  font-weight: bold;
   list-style-type: none;
   margin: 0;
   text-align: center;
   font-size: 14px;
+  padding-left: 0px;
+  margin-bottom: 50px;
 }
 .contact-us li a {
   color: #0a0a0a;
