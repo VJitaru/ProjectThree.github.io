@@ -1,9 +1,10 @@
-<!DOCUTYPE HTML>
+<!DOCTYPE HTML>
 <html>
 <head>
 <meta charset=utf-8>
-<title>Victor Games</title>
+<title>Bababa</title>
 <link href="css/style.css" rel="stylesheet" type="text/css">
+<link href="css/lightbox.min.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
 	<header id="navbar-hide">
@@ -31,21 +32,27 @@
 		</div>
 		<!--Menu from images splited in three colums on the page-->
 	<div class="row">			
-			<div class="column-two">
+		<div class="column-one">
 			<h1>Before</h1>	
-				<img src="galery_img/kitchen_small.jpg" alt="Kitche"></a>
-				<img src="galery_img/bedroom2_small.jpg" alt="Bedroom 2"></a>
+				<div class="gallery-wrap">	
+					<a href="gallery_img/kitchen_before_1.jpg" data-lightbox="mygallery"><img src="gallery_img/kitchen_before_1_small.jpg" alt="Kitchen 1 before"></a>
+					<a href="gallery_img/kitchen_before_2.jpg" data-lightbox="mygallery"><img src="gallery_img/kitchen_before_2_small.jpg" alt="Kitchen 2 before"></a>
+					<a href="gallery_img/kitchen_before_3.jpg" data-lightbox="mygallery"><img src="gallery_img/kitchen_before_3_small.jpg" alt="Kitchen 2 before"></a>
 				</div>
-			<div class="column-two">
+		</div>
+		<div class="column-two">
 			<h1>After</h1>
-				<img src="galery_img/bath_small.jpg" alt="Bathroom"></a>
-				<img src="galery_img/bedroom3_small.jpg" alt="Bedroom 3"></a>
-				</div>			
+				<div class="gallery-wrap">
+					<a href="gallery_img/kitchen_after_1.jpg" data-lightbox="mygallery"><img src="gallery_img/kitchen_after_1_small.jpg" alt="Kitchen 1 after"></a>
+					<a href="gallery_img/kitchen_after_2.jpg" data-lightbox="mygallery"><img src="gallery_img/kitchen_after_2_small.jpg" alt="Kitchen 2 after"></a>
+					<a href="gallery_img/kitchen_after_3.jpg" data-lightbox="mygallery"><img src="gallery_img/kitchen_after_3_small.jpg" alt="Kitchen 2 before"></a>
+				</div>
+		</div>			
 	</div>
 	<footer>
 			<!-- Contact details -->
 		  <ul class="contact-us">
-			<li class="address">Bristo, UK</li>
+			<li class="address">Bristol, UK</li>
 			<li class="email"><a href="mailto:">hello@bababa.co.uk</a></li>
 			<li class="phone">07123456789</li>
 		  </ul>
@@ -66,6 +73,8 @@
 		  </div>
 		</footer>
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="JS/lightbox-plus-jquery.min.js"></script>
 <script type="text/javascript" src="JS/Navbar.js"></script>
 </body>
 

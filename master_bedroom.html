@@ -1,9 +1,10 @@
-<!DOCUTYPE HTML>
+<!DOCTYPE HTML>
 <html>
 <head>
 	<meta charset=utf-8>
 	<title>Victor Games</title>
 	<link href="css/style.css" rel="stylesheet" type="text/css" />
+	<link href="css/lightbox.min.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
 	<header id="navbar-hide">
@@ -33,23 +34,24 @@
 	</div>
 <!--Menu from images splited in three colums on the page-->
 	<div class="row">
+		<div class="column-one">
+			<h1>Before</h1>	
+				<div class="gallery-wrap">	
+					<a href="gallery_img/master_beedroom_before_1.jpg" data-lightbox="mygallery"><img src="gallery_img/master_beedroom_before_1_small.jpg" alt="Master bedroom 1 before"></a>
+				</div>
+		</div>
 		<div class="column-two">
-			<h1>Before</h1>
-			<img alt="Kitche" src="galery_img/kitchen_small.jpg" /> 
-			<img alt="Bedroom 2" src="galery_img/bedroom2_small.jpg" />
-	</div>
-
-	<div class="column-two">
-		<h1>After</h1>
-			<img alt="Bathroom" src="galery_img/bath_small.jpg" /> 
-		<img alt="Bedroom 3" src="galery_img/bedroom3_small.jpg" />
-	</div>
+			<h1>After</h1>
+				<div class="gallery-wrap">
+					<a href="gallery_img/master_beedroom_after_1.jpg" data-lightbox="mygallery"><img src="gallery_img/master_beedroom_after_1_small.jpg" alt="Master bedroom 1 after"></a>
+				</div>
+		</div>
 </div>
 
 <footer>
 		<!-- Contact details -->
       <ul class="contact-us">
-        <li class="address">Bristo, UK</li>
+        <li class="address">Bristol, UK</li>
         <li class="email"><a href="mailto:">hello@bababa.co.uk</a></li>
         <li class="phone">07123456789</li>
       </ul>
@@ -69,6 +71,8 @@
         /></a>
       </div>
     </footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="JS/lightbox-plus-jquery.min.js"></script>
 <script type="text/javascript" src="JS/Navbar.js"></script>
 </body>
 </html>
