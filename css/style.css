@@ -29,8 +29,7 @@ body {
   text-align: center;
   margin: 0 auto;
 }
-.row {
-  display: flex;
+.row {  
   align-items: center;
   margin-bottom: 150px;
 }
