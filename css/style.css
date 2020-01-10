@@ -1,10 +1,11 @@
 html {
   font-family: "Righteous", cursive;
   margin: 0;
+  height: 100%;
 }
-body {
+body {  
   margin: 0;
-  padding: 0;
+  height: 100%;
   background: white;
 }
 .container-main {
@@ -29,7 +30,12 @@ body {
   text-align: center;
   margin: 0 auto;
 }
-.row {  
+.row-index {
+  display: flex;
+  align-items: center;
+  margin-bottom: 150px;
+}
+.row {
   align-items: center;
   margin-bottom: 150px;
 }
@@ -55,8 +61,7 @@ body {
   height: 50px;
   background-image: url("../img/background_colour_50px.png");
   z-index: 9999;
-  width: 100%;
-  background-color: rgb(250, 184, 184);
+  width: 100%;  
 }
 .nav-img {
   width: 50px;
@@ -89,6 +94,7 @@ body {
 .horizontal-subnav {
   width: 750px;
   margin: 0 auto;
+  margin-top: 50px;
 }
 .horizontal-subnav ul {
   list-style: none;
@@ -137,7 +143,7 @@ body {
 /* Gallery image navigation bar in the rooms */
 .column-two,
 .column-one {
-  float: left;
+  float:left;
   text-align: center;
   width: 50%;
 }
@@ -228,14 +234,22 @@ form .post {
 .red {
   color: red;
 }
+/*Footer*/
+.content {
+  min-height: 100%;
+}
+.content-inside {
+  padding: 0px;
+  padding-bottom: 90px;
+}
 footer {
-  position: fixed;
   bottom: 0;
   background-image: url("../img/background_colour_60px.png");  
-  display: block;
   right: 0;
   left: 0;
   height: 90px;
+  margin-top: -50px;
+  margin-bottom: 0px;
 }
 .social-media {
   text-align: center;
