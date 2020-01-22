@@ -10,10 +10,10 @@ body {
 }
 .container-main {
   max-width: 700px;
+  border-radius: 4px;
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.3);
   margin: 0 auto;
-  background-color: rgb(240, 255, 255);
-  margin-top: 60px;
-  margin-bottom: 100px;
+  background-color: rgb(151, 216, 225);   
 }
 /* Big image */
 .logo-image img {
@@ -21,11 +21,12 @@ body {
   margin-top: 0px;
   margin-left: auto;
   margin-right: auto;
-  width: 500px;
-  height: 500px;
+  margin-bottom: 50px;
+  width: 300px;
+  height: 300px;
 }
 /* Image navigation bar */
-.images-main {
+.images-main {  
   width: 500px;
   text-align: center;
   margin: 0 auto;
@@ -45,8 +46,8 @@ body {
   text-align: center;
 }
 .column-main img {
-  width: 100px;
-  height: 100px;
+  width: 50px;
+  height: 50px;
   padding: 0px;
   margin-bottom: 0px;
   vertical-align: middle;
@@ -162,7 +163,7 @@ body {
 .gallery-wrap img {
   transition: 1s;
   padding: 15px;
-  width: 300px;
+  width: 400px;
   height: 400px;
 }
 .gallery-wrap img:hover {
@@ -175,7 +176,7 @@ body {
   margin: 0 auto;
 }
 .post {
-  background-color: rgb(240, 255, 255);
+  background-color: rgb(151, 216, 225);
   border-radius: 4px;
   padding: 10px;
   margin: 100px 0;
@@ -209,8 +210,8 @@ form .post {
   font-weight: 700;
 }
 .btn-post {
-  color: CornflowerBlue;
-  border-color: CornflowerBlue;
+  color: black;
+  border-color: black;
   border-radius: 4px;
   border-width: 1px;
   text-decoration: none;
@@ -248,7 +249,7 @@ footer {
   right: 0;
   left: 0;
   height: 90px;
-  margin-top: -50px;
+  margin-top: -100px;
   margin-bottom: 0px;
 }
 .social-media {
@@ -276,9 +277,17 @@ footer {
 .contact-us li a {
   color: #0a0a0a;
 }
-/*Tips page*/
-.tips-header {
+/*Tips / Home page*/
+.tips-header, .index-header {
   text-align: center;
+  font-family: Times New Roman;
+}
+.index-header {
+  margin-top: -100px;
+}
+.tips-text, .index-text {
+  text-align: left;
+  font-family: "Righteous", cursive;
 }
 @media screen and (min-width: 480px) {
   .horizontal-nav li {
