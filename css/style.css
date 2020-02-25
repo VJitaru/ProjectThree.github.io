@@ -9,10 +9,12 @@ body {
   background: white;
 }
 .container-main {
+  padding-left: 10px;
+  padding-right: 10px;
   max-width: 700px;
   border-radius: 4px;  
   margin: 0 auto;
-  background-color: rgb(225, 244, 247);  
+  background-color: rgb(233, 245, 247);  
   box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.3);  
 }
 /* Big image */
@@ -275,15 +277,15 @@ footer {
 .contact-us li a {
   color: #0a0a0a;
 }
-/*Tips / Home page*/
-.tips-header, .index-header {
+/*Tips / Home page / Services*/
+.tips-header, .index-header, .services-text-box h1 {
   text-align: center;
   font-family: Times New Roman;
 }
 .index-header {
   margin-top: -100px;
 }
-.tips-text, .index-text {
+.tips-text, .index-text, .services-text-box {
   text-align: left;
   font-family: "Righteous", cursive;
 }
@@ -311,6 +313,9 @@ footer {
 }
 .tips-text {
   font-size: 22px;
+}
+.services-text-box h2, h4, h5 {
+  font-family: 'Times New Roman', Times, serif;
 }
 /*Carousel */
 .container-carousel {
