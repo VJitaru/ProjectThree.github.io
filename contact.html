@@ -1,4 +1,4 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8" />
@@ -11,52 +11,60 @@
     ></script>
   </head>
   <body>
-    <header id="navbar-hide">
-      <!--Top Horizontal Menu / Main menu-->
-      <div class="horizontal-nav">
-        <ul>
-          <li>
-            <img class="nav-img" src="img/Bababa_small.png" alt="BABABA logo" />
-          </li>
-          <li>
-            <a href="index.html"><h4>Home</h4></a>
-          </li>
-          <li>
-            <a href="tips.html"><h4>Tips</h4></a>
-          </li>
-          <li>
-            <a href="services.html"><h4>Services</h4></a>
-          </li>
-          <li>
-            <a href="galery.html"><h4>Galery</h4></a>
-          </li>
-        </ul>
-      </div>
-    </header>
-    <!--Form with customer`s full name, email and a button to send an email-->
-    <form method="POST" class="newPost">
-      <div class="container-contact">
-        <div class="post">
-          First name:<br />
-          <input type="text" name="First Name" required /><br />
-          Last name:<br />
-          <input type="text" name="Last Name" required /><br />
-          Email:<br />
-          <input type="text" name="Email" required /><br /><br />
-          Add your request below:<br />
-          <textarea
-            class="postText"
-            placeholder="Please add your message"
-          ></textarea>
-          <p class="wordcount">
-            <span class="characters">140</span> characters remaining
-          </p>
-          <div class="button-holder">
-            <button type="submit" class="btn-post">Send</button>
+    <div class="content">
+      <div class="content-inside">
+        <header id="navbar-hide">
+          <!--Top Horizontal Menu / Main menu-->
+          <div class="horizontal-nav">
+            <ul>
+              <li>
+                <img
+                  class="nav-img"
+                  src="img/Bababa_small_inv.png"
+                  alt="BABABA logo"
+                />
+              </li>
+              <li>
+                <a href="index.html"><h4>Home</h4></a>
+              </li>
+              <li>
+                <a href="tips.html"><h4>Tips</h4></a>
+              </li>
+              <li>
+                <a href="services.html"><h4>Services</h4></a>
+              </li>
+              <li>
+                <a href="galery.html"><h4>Galery</h4></a>
+              </li>
+            </ul>
           </div>
-        </div>
+        </header>
+        <!--Form with customer`s full name, email and a button to send an email-->
+        <form method="POST" class="newPost">
+          <div class="container-contact">
+            <div class="post">
+              First name:<br />
+              <input type="text" name="First Name" required /><br />
+              Last name:<br />
+              <input type="text" name="Last Name" required /><br />
+              Email:<br />
+              <input type="text" name="Email" required /><br /><br />
+              Add your request below:<br />
+              <textarea
+                class="postText"
+                placeholder="Please add your message"
+              ></textarea>
+              <p class="wordcount">
+                <span class="characters">140</span> characters remaining
+              </p>
+              <div class="button-holder">
+                <button type="submit" class="btn-post">Send</button>
+              </div>
+            </div>
+          </div>
+        </form>
       </div>
-    </form>
+    </div>
     <footer>
       <!-- Contact details -->
       <ul class="contact-us">
