@@ -60,7 +60,7 @@ body {
 #navbar-hide {
   position: relative;
   height: 50px;
-  background-image: url("../img/background_colour_50px.png");
+  background-color: #3D72A4;
   z-index: 9999;
   width: 100%;
 }
@@ -84,7 +84,7 @@ body {
 /* Text inside the navigation bar */
 .horizontal-nav a {
   text-decoration: none;
-  color: black;
+  color: white;
   display: block;
 }
 /* Second Navigation Bar */
@@ -220,8 +220,8 @@ form .post {
 }
 .btn-post:hover {
   color: white;
-  border-color: CornflowerBlue;
-  background-color: CornflowerBlue;
+  border-color: #3D72A4;
+  background-color: #3D72A4;
   font-weight: 700;
 }
 .postText {
@@ -242,11 +242,12 @@ form .post {
   padding-bottom: 90px;
 }
 footer {
+  padding-top: 20px;
   bottom: 0;
-  background-image: url("../img/background_colour_60px.png");
+  background-color: #3D72A4;
   right: 0;
   left: 0;
-  height: 90px;
+  height: 100px;
 }
 .social-media {
   text-align: center;
@@ -262,6 +263,7 @@ footer {
 }
 .contact-us {
   font-family: "Times New Roman";
+  color: white;
   font-weight: bold;
   list-style-type: none;
   margin: 0;
@@ -271,7 +273,7 @@ footer {
   margin-bottom: 50px;
 }
 .contact-us li a {
-  color: #0a0a0a;
+  color: white;
 }
 /*Tips / Home page / Services*/
 .tips-header,
@@ -357,7 +359,7 @@ a.control_next {
   padding: 4% 3%;
   width: auto;
   height: auto;
-  background:black;
+  background:gray;
   color: white;
   text-decoration: none;
   font-weight: 600;
@@ -368,7 +370,7 @@ a.control_next {
 a.control_prev:hover,
 a.control_next:hover {
   opacity: 1;
-  -webkit-transition: all 0.2s ease;
+ 
 }
 a.control_prev {
   border-radius: 0 2px 2px 0;
